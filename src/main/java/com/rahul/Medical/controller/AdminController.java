@@ -48,7 +48,6 @@ public class AdminController {
         List<Admin> list = adminServiceImplementation.findByRole("ROLE_USER");
         model.addAttribute("user", list);
 
-
         // get last seen
         String username = "";
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
