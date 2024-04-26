@@ -86,6 +86,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	}
 	
 
+	//using JDBC user detail manager
 	@Bean
 	public UserDetailsManager userDetailsManager() {
 		
